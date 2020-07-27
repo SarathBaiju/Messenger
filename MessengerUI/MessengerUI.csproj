@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>3.7</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\dist\css\app.ce819ddc.css" />
+    <Content Remove="wwwroot\dist\favicon.ico" />
+    <Content Remove="wwwroot\dist\index.html" />
+    <Content Remove="wwwroot\dist\js\app.72df184d.js" />
+    <Content Remove="wwwroot\dist\js\app.72df184d.js.map" />
+    <Content Remove="wwwroot\dist\js\chunk-vendors.9e532dbf.js" />
+    <Content Remove="wwwroot\dist\js\chunk-vendors.9e532dbf.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\dist\css\app.ce819ddc.css" />
+    <None Include="wwwroot\dist\favicon.ico" />
+    <None Include="wwwroot\dist\index.html" />
+    <None Include="wwwroot\dist\js\app.72df184d.js" />
+    <None Include="wwwroot\dist\js\app.72df184d.js.map" />
+    <None Include="wwwroot\dist\js\chunk-vendors.9e532dbf.js" />
+    <None Include="wwwroot\dist\js\chunk-vendors.9e532dbf.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
